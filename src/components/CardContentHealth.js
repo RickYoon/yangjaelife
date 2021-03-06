@@ -6,6 +6,23 @@ const CardContent = (props) => {
     <div className="card m-2 border">
       <div className="row g-0">
         <div className="card-body">
+          <h5 className="card-title">올림픽경기장수영장</h5>
+          <h6 class="card-subtitle mb-2 text-muted">수영장</h6>
+          <p className="card-text m-0">
+            위치: 서울 서초구 서초2동 효령로72길 60{" "}
+          </p>
+          <p className="card-text m-0">전화번호: 02-2055-1331</p>
+          <p className="card-text m-0">자유수영: 6,500원</p>
+          <p className="card-text m-0">자유수영 시간 </p>
+          <p className="card-text m-0">(평일) : 12:00~13:50</p>
+          <p className="card-text m-0">(토요일) 14-15:50, 17-18:50</p>
+          <p className="card-text m-0">(일요일) 9-11, 12-14, 15-16:50</p>
+          <p className="card-text m-0">강습정보: 홈페이지 링크</p>
+          <p className="card-text">
+            <small className="text-muted"> 2021.03.02 updated</small>
+          </p>
+        </div>
+        <div className="card-body">
           <h5 className="card-title">한전아트센터수영장</h5>
           <h6 class="card-subtitle mb-2 text-muted">수영장</h6>
           <p className="card-text m-0">

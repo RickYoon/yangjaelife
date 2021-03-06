@@ -1,5 +1,7 @@
 # life information for me
 
+https://main.d82psngnylxij.amplifyapp.com/
+
 ## step down for font
 
 ### more step
@@ -21,3 +23,7 @@ app script 를 활용해서 연동할 수 있음! (2021.03.05)
 뭔가 공부할게 많은 것 같아서
 spreadsheet -> json -> dynamodb 수동으로 수행하는 방식으로 한다.
 근데 뭔가 spreadsheet 를 활용한 업무자동화 or 웹서비스 연동이 사업모델이 될 수도 있을 것 같다.
+
+### 일단 POC 를 하기 위해서 작은 범위인 죽동을 기준으로 서비스를 제작해보자
+
+2021.03.07 죽동 상가 전체 정보, 항목별 정보 나열.

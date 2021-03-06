@@ -115,6 +115,17 @@ const CardContent = (props) => {
             <small className="text-muted"> 2021.03.06 updated</small>
           </p>
         </div>
+        <div className="card-body">
+          <h5 className="card-title">GS25</h5>
+          <h6 class="card-subtitle mb-2 text-muted">학원</h6>
+          <p className="card-text m-0">위치: 초등학교/예미지 앞 상가거리 </p>
+          <p className="card-text m-0">전화번호: 010-5703-5438</p>
+          <p className="card-text m-0">(평일) : 12:00~13:50</p>
+          <p className="card-text m-0">(토요일) 14-15:50, 17-18:50</p>
+          <p className="card-text">
+            <small className="text-muted"> 2021.03.06 updated</small>
+          </p>
+        </div>
       </div>
     </div>
   );
