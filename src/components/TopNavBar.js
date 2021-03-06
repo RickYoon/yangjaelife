@@ -7,7 +7,7 @@ const TopNavBar = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-success">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            양재생활수첩
+            죽동생활수첩
           </Link>
           <button
             className="navbar-toggler"
@@ -22,12 +22,18 @@ const TopNavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              {/* <li className="nav-item">
+              <li className="nav-item">
+                <Link className="nav-link" to="/living">
+                  상가정보
+                </Link>
+              </li>
+
+              <li className="nav-item">
                 <Link className="nav-link" to="/health">
                   운동정보
                 </Link>
-              </li> */}
-              {/* <li className="nav-item">
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link" to="/Development">
                   교육정보
                 </Link>
@@ -46,7 +52,7 @@ const TopNavBar = () => {
                 <Link className="nav-link" to="/About">
                   정보요청하기
                 </Link>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>

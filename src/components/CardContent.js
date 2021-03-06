@@ -6,20 +6,113 @@ const CardContent = (props) => {
     <div className="card m-2 border">
       <div className="row g-0">
         <div className="card-body">
-          <h5 className="card-title">한전아트센터수영장</h5>
-          <h6 class="card-subtitle mb-2 text-muted">수영장</h6>
-          <p className="card-text m-0">
-            위치: 서울 서초구 서초2동 효령로72길 60{" "}
-          </p>
-          <p className="card-text m-0">전화번호: 02-2055-1331</p>
-          <p className="card-text m-0">자유수영: 6,500원</p>
-          <p className="card-text m-0">자유수영 시간 </p>
+          <h5 className="card-title">죽동 탑 공인중개사 사무소</h5>
+          <h6 class="card-subtitle mb-2 text-muted">부동산</h6>
+          <p className="card-text m-0">위치: 예미지 상가 1층</p>
+          <p className="card-text m-0">전화번호: 02-824-2141</p>
           <p className="card-text m-0">(평일) : 12:00~13:50</p>
           <p className="card-text m-0">(토요일) 14-15:50, 17-18:50</p>
-          <p className="card-text m-0">(일요일) 9-11, 12-14, 15-16:50</p>
-          <p className="card-text m-0">강습정보: 홈페이지 링크</p>
           <p className="card-text">
-            <small className="text-muted"> 2021.03.02 updated</small>
+            <small className="text-muted"> 2021.03.06 updated</small>
+          </p>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">대전랜드 공인중개사 사무소</h5>
+          <h6 class="card-subtitle mb-2 text-muted">부동산</h6>
+          <p className="card-text m-0">위치: 예미지 상가 1층 </p>
+          <p className="card-text m-0">전화번호: 02-343-2400</p>
+          <p className="card-text m-0">(평일) : 12:00~13:50</p>
+          <p className="card-text m-0">(토요일) 14-15:50, 17-18:50</p>
+          <p className="card-text">
+            <small className="text-muted"> 2021.03.06 updated</small>
+          </p>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">정우미트</h5>
+          <h6 class="card-subtitle mb-2 text-muted">부동산</h6>
+          <p className="card-text m-0">위치: 예미지 상가 1층 </p>
+          <p className="card-text m-0">전화번호: 02-824-5866</p>
+          <p className="card-text m-0">(평일) : 12:00~13:50</p>
+          <p className="card-text m-0">(토요일) 14-15:50, 17-18:50</p>
+          <p className="card-text">
+            <small className="text-muted"> 2021.03.06 updated</small>
+          </p>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">우리집앞 영어교실</h5>
+          <h6 class="card-subtitle mb-2 text-muted">학원</h6>
+          <p className="card-text m-0">위치: 예미지 상가 2층 </p>
+          <p className="card-text m-0">전화번호: 010-5703-5438</p>
+          <p className="card-text m-0">(평일) : 12:00~13:50</p>
+          <p className="card-text m-0">(토요일) 14-15:50, 17-18:50</p>
+          <p className="card-text">
+            <small className="text-muted"> 2021.03.06 updated</small>
+          </p>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">예미지 세탁소</h5>
+          <h6 class="card-subtitle mb-2 text-muted">세탁소</h6>
+          <p className="card-text m-0">위치: 예미지 상가 2층 </p>
+          <p className="card-text m-0">전화번호: 010-5703-5438</p>
+          <p className="card-text m-0">(평일) : 12:00~13:50</p>
+          <p className="card-text m-0">(토요일) 14-15:50, 17-18:50</p>
+          <p className="card-text">
+            <small className="text-muted"> 2021.03.06 updated</small>
+          </p>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">에덴피아노</h5>
+          <h6 class="card-subtitle mb-2 text-muted">학원</h6>
+          <p className="card-text m-0">위치: 예미지 상가 2층 </p>
+          <p className="card-text m-0">전화번호: 010-5703-5438</p>
+          <p className="card-text m-0">(평일) : 12:00~13:50</p>
+          <p className="card-text m-0">(토요일) 14-15:50, 17-18:50</p>
+          <p className="card-text">
+            <small className="text-muted"> 2021.03.06 updated</small>
+          </p>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">노벨 공인중개사</h5>
+          <h6 class="card-subtitle mb-2 text-muted">부동산</h6>
+          <p className="card-text m-0">위치: 예미지 상가 1층 </p>
+          <p className="card-text m-0">전화번호: 010-5703-5438</p>
+          <p className="card-text m-0">(평일) : 12:00~13:50</p>
+          <p className="card-text m-0">(토요일) 14-15:50, 17-18:50</p>
+          <p className="card-text">
+            <small className="text-muted"> 2021.03.06 updated</small>
+          </p>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">OK죽동 공인중개사</h5>
+          <h6 class="card-subtitle mb-2 text-muted">세탁소</h6>
+          <p className="card-text m-0">위치: 예미지 상가 2층 </p>
+          <p className="card-text m-0">전화번호: 010-5703-5438</p>
+          <p className="card-text m-0">(평일) : 12:00~13:50</p>
+          <p className="card-text m-0">(토요일) 14-15:50, 17-18:50</p>
+          <p className="card-text">
+            <small className="text-muted"> 2021.03.06 updated</small>
+          </p>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">점프윙스</h5>
+          <h6 class="card-subtitle mb-2 text-muted">운동</h6>
+          <p className="card-text m-0">위치: 예미지 상가 2층 </p>
+          <p className="card-text m-0">전화번호: 02-825-1530</p>
+          <p className="card-text m-0">(평일) : 12:00~13:50</p>
+          <p className="card-text m-0">(토요일) 14-15:50, 17-18:50</p>
+          <p className="card-text">
+            <small className="text-muted"> 2021.03.06 updated</small>
+          </p>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">태권도</h5>
+          <h6 class="card-subtitle mb-2 text-muted">학원</h6>
+          <p className="card-text m-0">위치: 예미지 상가 2층 </p>
+          <p className="card-text m-0">전화번호: 010-5703-5438</p>
+          <p className="card-text m-0">(평일) : 12:00~13:50</p>
+          <p className="card-text m-0">(토요일) 14-15:50, 17-18:50</p>
+          <p className="card-text">
+            <small className="text-muted"> 2021.03.06 updated</small>
           </p>
         </div>
       </div>

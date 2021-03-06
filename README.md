@@ -18,3 +18,6 @@
 구글스프레드시트랑 AWS S3 연동하는 법 연구
 app script 를 활용해서 연동할 수 있음! (2021.03.05)
 [여기를 연구해보자](https://github.com/liddiard/google-sheet-s3)
+뭔가 공부할게 많은 것 같아서
+spreadsheet -> json -> dynamodb 수동으로 수행하는 방식으로 한다.
+근데 뭔가 spreadsheet 를 활용한 업무자동화 or 웹서비스 연동이 사업모델이 될 수도 있을 것 같다.

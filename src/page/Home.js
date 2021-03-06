@@ -33,86 +33,57 @@ const Home = () => {
       <div className="container">
         <div className="card-group">
           <div className="card-body">
-            <div className="card border-success" style={{ maxWidth: "20rem" }}>
+            <div
+              className="card border"
+              style={{ maxWidth: "20rem", marginTop: "1rem" }}
+            >
               <div className="card-body text-success">
-                <h5 className="card-title">식당정보</h5>
+                <h5 className="card-title">상가정보</h5>
                 <p
                   className="card-text"
-                  style={{ width: "20rem", height: "50px" }}
+                  style={{ width: "20rem", height: "20px" }}
                 >
-                  한식, 중식, 양식, 분석,
+                  죽동예미지, 칸다빌 아파트 근처 상가 정보
                 </p>
-              </div>
-              <div className="card-footer bg-transparent border-success">
-                상세보기 >>
               </div>
             </div>
           </div>
           <div className="card-body">
-            <div className="card border-success" style={{ maxWidth: "20rem" }}>
+            <div className="card border" style={{ maxWidth: "20rem" }}>
               <div className="card-body text-success">
-                <h5 className="card-title">식당정보</h5>
+                <h5 className="card-title">운동정보</h5>
                 <p
                   className="card-text"
-                  style={{ height: "50px", color: "white" }}
+                  style={{ width: "20rem", height: "20px" }}
                 >
-                  양재 헬스, 테니스, 골프, 필라테스, 수영장, 암벽등반, 산책로,
-                  요가
+                  근처 수영장, 골프, 테니스, 축구장 정보
                 </p>
-              </div>
-              <div className="card-footer bg-transparent border-success">
-                상세보기 >>
               </div>
             </div>
           </div>
           <div className="card-body">
-            <div
-              className="card border-success mb-3"
-              style={{ maxWidth: "20rem" }}
-            >
+            <div className="card border" style={{ maxWidth: "20rem" }}>
               <div className="card-body text-success">
-                <h5 className="card-title">Success card title</h5>
-                <p className="card-text" style={{ height: "50px" }}>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <h5 className="card-title">학원정보</h5>
+                <p
+                  className="card-text"
+                  style={{ width: "20rem", height: "20px" }}
+                >
+                  초, 중, 고등학생, 성인을 위한 근처 학원
                 </p>
-              </div>
-              <div className="card-footer bg-transparent border-success">
-                Footer
               </div>
             </div>
           </div>
           <div className="card-body">
-            <div
-              className="card border-success mb-3"
-              style={{ maxWidth: "20rem" }}
-            >
+            <div className="card border" style={{ maxWidth: "20rem" }}>
               <div className="card-body text-success">
-                <h5 className="card-title">Success card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <h5 className="card-title">근교정보</h5>
+                <p
+                  className="card-text"
+                  style={{ width: "20rem", height: "20px" }}
+                >
+                  죽동 밖 맛집, 카페, 놀러갈 만한 곳
                 </p>
-              </div>
-              <div className="card-footer bg-transparent border-success">
-                Footer
-              </div>
-            </div>
-          </div>
-          <div className="card-body">
-            <div
-              className="card border-success mb-3"
-              style={{ maxWidth: "20rem" }}
-            >
-              <div className="card-body text-success">
-                <h5 className="card-title">Success card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="card-footer bg-transparent border-success">
-                Footer
               </div>
             </div>
           </div>

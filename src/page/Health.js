@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import CardContent from "../components/CardContent";
+import CardContentHealth from "../components/CardContentHealth";
 import Filter from "../components/Filter";
 import axios from "axios";
 
-const Living = () => {
+const Health = () => {
   // const arrayK = ["09:00~11:00 (평일)", "09:00~11:00 (주말)"];
   const [info, setInfo] = useState([]);
 
@@ -42,9 +42,9 @@ const Living = () => {
       {/* {info.map((inf, index) => (
         <Card key={index} title={inf.title}></Card>
       ))} */}
-      <CardContent />
+      <CardContentHealth />
     </div>
   );
 };
 
-export default Living;
+export default Health;
