@@ -33,57 +33,10 @@ const Home = () => {
       <div className="container">
         <div className="card-group">
           <div className="card-body">
-            <div
-              className="card border"
-              style={{ maxWidth: "20rem", marginTop: "1rem" }}
-            >
-              <div className="card-body text-success">
+            <div className="card border">
+              <div className="card-body">
                 <h5 className="card-title">상가정보</h5>
-                <p
-                  className="card-text"
-                  style={{ width: "20rem", height: "20px" }}
-                >
-                  죽동예미지, 칸다빌 아파트 근처 상가 정보
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="card-body">
-            <div className="card border" style={{ maxWidth: "20rem" }}>
-              <div className="card-body text-success">
-                <h5 className="card-title">운동정보</h5>
-                <p
-                  className="card-text"
-                  style={{ width: "20rem", height: "20px" }}
-                >
-                  근처 수영장, 골프, 테니스, 축구장 정보
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="card-body">
-            <div className="card border" style={{ maxWidth: "20rem" }}>
-              <div className="card-body text-success">
-                <h5 className="card-title">학원정보</h5>
-                <p
-                  className="card-text"
-                  style={{ width: "20rem", height: "20px" }}
-                >
-                  초, 중, 고등학생, 성인을 위한 근처 학원
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="card-body">
-            <div className="card border" style={{ maxWidth: "20rem" }}>
-              <div className="card-body text-success">
-                <h5 className="card-title">근교정보</h5>
-                <p
-                  className="card-text"
-                  style={{ width: "20rem", height: "20px" }}
-                >
-                  죽동 밖 맛집, 카페, 놀러갈 만한 곳
-                </p>
+                <p className="card-text">예미지/칸다빌 아파트 근처 상가 정보</p>
               </div>
             </div>
           </div>

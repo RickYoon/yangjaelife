@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background-color: #e0e0e0;
+
   font-family: "Spoqa Han Sans Neo", "sans-serif";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
