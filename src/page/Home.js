@@ -45,12 +45,12 @@ const Home = () => {
   return (
     <>
       <div className="container">
-        <div className="card-group">
+        <div className="card-group mt-3">
           <div className="card-body">
             <div className="card border">
               <div className="card-body">
                 <p className="card-text">
-                  죽동에서 살아가면서 필요한 정보를 모아서 정리해봤습니다. -
+                  죽동에서 살아가면서 필요한 정보를 모아서 정리해봤습니다 ^^ -
                   '21-03-07 updated
                 </p>
               </div>
