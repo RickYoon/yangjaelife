@@ -1,6 +1,20 @@
 import React, { useEffect } from "react";
 import CardContent from "../components/CardContent";
 import Filter from "../components/Filter";
+import "./main.css";
+import { Link } from "react-router-dom";
+import jukdong from "./jukdong.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCheckSquare,
+  faCoffee,
+  faBreadSlice,
+  faRunning,
+  faChalkboardTeacher,
+  faClinicMedical,
+  faTshirt,
+} from "@fortawesome/free-solid-svg-icons";
+
 // import axios from "axios";
 
 const Home = () => {
@@ -35,21 +49,38 @@ const Home = () => {
           <div className="card-body">
             <div className="card border">
               <div className="card-body">
-                <h5 className="card-title">서비스소개</h5>
-                <p className="card-text"></p>
                 <p className="card-text">
-                  죽동에 살면서 근처 상가 정보를 하나씩 정리해보았습니다.
-                </p>
-                <p className="card-text">
-                  직접 다니면서 하나씩 알아보았습니다.
-                </p>
-                <p className="card-text">
-                  오른쪽 위 버튼을 눌러서 카테고리별로 정보를 검색해보세요
+                  죽동에서 살아가면서 필요한 정보를 모아서 정리해봤습니다. -
+                  '21-03-07 updated
                 </p>
               </div>
             </div>
           </div>
         </div>
+        <Link to="/health" className="main-button">
+          <i class="bi bi-shop"></i> {"  "}음식점
+        </Link>
+        <Link to="/health" className="main-button">
+          <FontAwesomeIcon icon={faCoffee} />{" "}
+          <FontAwesomeIcon icon={faBreadSlice} />
+          {"  "} 카페/빵
+        </Link>
+        <Link to="/health" className="main-button">
+          <FontAwesomeIcon icon={faRunning} />
+          {"  "}운동
+        </Link>
+        <Link to="/health" className="main-button">
+          <FontAwesomeIcon icon={faChalkboardTeacher} />
+          {"   "}학원
+        </Link>
+        <Link to="/health" className="main-button">
+          <FontAwesomeIcon icon={faTshirt} />
+          {"   "}생활편의
+        </Link>
+        <Link to="/health" className="main-button">
+          <FontAwesomeIcon icon={faClinicMedical} />
+          {"  "}병원
+        </Link>
       </div>
     </>
   );
