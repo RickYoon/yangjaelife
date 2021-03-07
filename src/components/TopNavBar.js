@@ -23,34 +23,38 @@ const TopNavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link" to="/living">
-                  전체보기
+                <Link className="nav-link" to="/food">
+                  음식점
                 </Link>
               </li>
-
+              <li className="nav-item">
+                <Link className="nav-link" to="/cafe">
+                  카페/빵
+                </Link>
+              </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/health">
-                  운동정보
+                  운동
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Development">
-                  교육정보
+                <Link className="nav-link" to="/education">
+                  학원
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Development">
-                  식당정보
+                <Link className="nav-link" to="/hospital">
+                  병원
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Development">
-                  카페정보
+                <Link className="nav-link" to="/estate">
+                  부동산
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/About">
-                  정보요청하기
+                <Link className="nav-link" to="/trip">
+                  근교정보
                 </Link>
               </li>
             </ul>

@@ -3,7 +3,7 @@ import CardContentHealth from "../components/CardContentHealth";
 import Filter from "../components/Filter";
 // import axios from "axios";
 
-const Health = () => {
+const Education = () => {
   // const arrayK = ["09:00~11:00 (평일)", "09:00~11:00 (주말)"];
   // const [info, setInfo] = useState([]);
 
@@ -45,8 +45,8 @@ const Health = () => {
       {/* <CardContentHealth /> */}
       <div className="card m-3 border" style={{ backgroundColor: "white" }}>
         <div className="card-body">
-          <h5 className="card-title">대전월드컵경기장 수영장</h5>
-          <h6 class="card-subtitle mb-2 text-muted">수영장</h6>
+          <h5 className="card-title">비바 피아노</h5>
+          <h6 class="card-subtitle mb-2 text-muted">피아노학원</h6>
           <p className="card-text m-0">위치: 예미지 상가 1층 </p>
           <p className="card-text m-0">전화번호: 02-343-2400</p>
           <p className="card-text m-0">자유수영</p>
@@ -59,8 +59,8 @@ const Health = () => {
       </div>
       <div className="card m-3 border" style={{ backgroundColor: "white" }}>
         <div className="card-body">
-          <h5 className="card-title">죽동 스크린골프장</h5>
-          <h6 class="card-subtitle mb-2 text-muted">스크린골프</h6>
+          <h5 className="card-title">클랑 음악학원</h5>
+          <h6 class="card-subtitle mb-2 text-muted">음악학원</h6>
           <p className="card-text m-0">위치: 예미지 상가 1층 </p>
           <p className="card-text m-0">전화번호: 02-343-2400</p>
           <p className="card-text m-0">자유수영</p>
@@ -75,4 +75,4 @@ const Health = () => {
   );
 };
 
-export default Health;
+export default Education;
